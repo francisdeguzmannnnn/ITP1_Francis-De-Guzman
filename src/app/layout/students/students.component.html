@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+
+<body>
+
+
+    <div class="card"*ngFor="let student of studentData">
+        <h2>{{student.studentName}}</h2>
+        <p>{{student.Course}}</p>
+        <div class="value">
+            <span>{{student.studentID}}</span>
+        </div>
+    </div>
+
+</body>
+
+</html>
